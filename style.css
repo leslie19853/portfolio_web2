@@ -1,0 +1,119 @@
+body{
+    background-color: #007A7A;
+    padding-top: 129.55;
+    margin: 50px;
+}
+
+.title-bar{
+    position: sticky;
+    top: 0;
+    display: grid;
+    grid-template-columns: 150px 1fr 300px;
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+    padding: 20px;
+}
+
+#menu{
+    font-size: 40px;
+    text-decoration: none;
+    color:  #409CF1;
+}
+
+
+#Logo{
+    width: 100px;
+    background-color: #FF7628;
+    border-radius: 17%;
+}
+
+
+ul{
+    list-style-type: none;
+}
+.film-slider{
+    display: flex;
+    grid-template-columns: 1fr 100px;
+    align-items: center;
+    justify-content: center;
+}
+ul li img{
+    width: 700px;
+    border-radius: 10%;
+    border: solid #FFCA00;
+    
+}
+
+
+button{
+    border-radius: 50%;
+    background-color: #409CF1;
+    width: 90px;
+    height: 35px;
+}
+
+input{
+    width: 200px;
+    height: 30px;
+}
+
+.menu-items{
+    text-align: left;
+    border-radius: 10%;
+    border: solid olive;
+    background-color:olivedrab;
+    padding: 15px;
+}
+
+a{
+    text-decoration: wavy underline #FF7628;
+    color: #FFCA00;
+}
+
+.guest-book{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+.empty-space{
+    height: 200px;
+}
+
+.gb{
+    border-radius: 8%;
+    background-color: #FF7628;
+    border: 3px solid #033c3c;
+    text-align: center;
+}
+
+#search-bar{
+    background-color: #FFCA00;
+}
+
+.sub-contents{
+    display: grid;
+    grid-template-columns: 1fr 550px;
+}
+
+h3{
+    color: #FFCA00;
+}
+p img{
+    padding: 10px;
+}
+
+.main-text{
+    background-color: olivedrab;
+    text-align: center;
+    border-radius: 6%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+}
